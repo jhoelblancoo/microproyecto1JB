@@ -20,6 +20,7 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    text-decoration: none;
 }
 
 
@@ -196,4 +197,11 @@ header {
 
 .hrcosa {
     margin-top: -100px;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #fdfffc;
 }
