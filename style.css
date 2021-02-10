@@ -65,22 +65,28 @@
 }
 
 .rs {
-    font-size: 28px;
+    font-size: 30px;
     background-color: #011627;
     color: #fdfffc;
-    margin-top: 10px;
     width: 803px;
     margin: auto;
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    list-style: none;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
     border-radius: 10px;
-    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .imgsli {
-    width: 40px;
+    width: 50px;
+}
+
+.lista1 {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 5px;
 }
