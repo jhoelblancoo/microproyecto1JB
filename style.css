@@ -71,7 +71,6 @@
     margin-top: 10px;
     width: 803px;
     margin: auto;
-    margin-top: 10px;
     font-family: 'Roboto', sans-serif;
     display: flex;
     list-style: none;
@@ -79,6 +78,7 @@
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 .imgsli {
