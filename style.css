@@ -72,7 +72,7 @@
 
 .titulitoabout {
     font-family: 'Roboto', sans-serif;
-    background-color: #2ec4b6;
+    background-color: #011627;
     color: #fdfffc;
     display: flex;
     width: 100%;
@@ -80,6 +80,9 @@
     font-size: 36px;
     padding-top: 20px;
     justify-content: center;
+    align-content: center;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .items {
@@ -130,4 +133,50 @@
 
 .hrcosa {
     margin-top: -100px;
+}
+
+.seccion-experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.experience {
+    background-color: #2ec4b6;
+    color: #fdfffc;
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    border-radius: 10px;
+    width: 500px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.ex1 {
+    padding: 10px 0px 20px 10px;
+    font-size: 30px;
+    flex-direction: row;
+    align-self: baseline;
+    font-style: italic;
+}
+
+.loco {
+    display: inline;
+}
+
+.imgs {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#que {
+    width: 100px;
+    height: 69.89px;
+    margin-left: 10px;
 }
