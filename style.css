@@ -1,15 +1,13 @@
-.aboutme {
+.titulitoabout {
     font-family: 'Roboto', sans-serif;
-    background-color: wheat;
-    color: #011627;
+    background-color: #2ec4b6;
+    color: #fdfffc;
     display: flex;
     width: 100%;
-    font-size: 30px;
-    height: 100%;
-    flex-direction: column;
-    align-content: space-between;
-    justify-content: space-around;
-    padding: 10px;
+    height: 60px;
+    font-size: 36px;
+    padding-top: 20px;
+    justify-content: center;
 }
 
 .items {
@@ -18,4 +16,46 @@
 
 .respuestas {
     font-size: 18px;
+}
+
+.rs {
+    font-size: 30px;
+    background-color: #fdfffc;
+    color: #011627;
+    height: 400px;
+    margin: auto;
+    padding-top: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nom {
+    position: relative;
+    top: -115px;
+    font-size: 36px;
+}
+
+#foticomia {
+    width: 220px;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+
+.lista3 {
+    list-style: none;
+}
+
+.licosas {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.licosas2 {
+    margin-bottom: 55px;
+    font-size: 26px;
+}
+
+.hrcosa {
+    margin-top: -100px;
 }
