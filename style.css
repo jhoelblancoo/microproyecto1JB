@@ -10,6 +10,7 @@
     box-shadow: 0 0 5px 0.5px #011627;
     position: relative;
     font-size: 'Roboto', sans-serif;
+    border-radius: 10px;
 }
 
 .formulario__titulo {
@@ -64,18 +65,20 @@
 }
 
 .rs {
-    font-size: 36px;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
+    font-size: 28px;
     background-color: #011627;
     color: #fdfffc;
     margin-top: 10px;
     width: 803px;
-    justify-content: center;
     margin: auto;
     margin-top: 10px;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
 }
 
 .imgsli {
